@@ -35,7 +35,7 @@ module.exports.routes = {
   '/': {
     controller: 'home',
     action: "default",
-//    view: 'homepage'
+    //    view: 'homepage'
   },
 
   /***************************************************************************
@@ -49,10 +49,9 @@ module.exports.routes = {
   ***************************************************************************/
 
 
- 'get /contact': {
+  'get /contact': {
     controller: 'contact',
     action: "findall",
-//    view: 'user/list'
   },
   'get /contact/new': {
     controller: 'contact',

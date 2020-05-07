@@ -7,6 +7,7 @@
 const _ = require('@sailshq/lodash');
 
 module.exports = {
+
     /**
      * `ContactController.create()`
      */
@@ -38,6 +39,7 @@ module.exports = {
         });
 
     },
+
     /**
      * `ContactController.update()`
      */
@@ -75,6 +77,7 @@ module.exports = {
         });
 
     },
+    
     /**
      * `ContactController.delete()`
      */

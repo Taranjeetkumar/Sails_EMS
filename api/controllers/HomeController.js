@@ -7,6 +7,7 @@
 const _ = require('@sailshq/lodash');
 
 module.exports = {
+    
     default: function (req, res) {
         console.info("default invoked");
         return res.view("homepage", {

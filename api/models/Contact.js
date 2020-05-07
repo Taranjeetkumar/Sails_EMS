@@ -6,19 +6,19 @@
  */
 const _ = require('@sailshq/lodash');
 
-module.exports = { 
+module.exports = {
     attributes: {
         pid: {
             type: 'string',
             unique: true,
             required: true
         },
-        firstName: {type: 'string', columnName: "first_name"},
-        lastName: {type: 'string', columnName: "last_name"},
-        dateOfBirth: {type: 'datetime', columnName: "date_of_birth"},
-        email: {type: 'string'},
-        phone: {type: 'string'},
-        profileImageUrl: {type: 'string', columnName: "profile_url"}
+        firstName: { type: 'string', columnName: "first_name" },
+        lastName: { type: 'string', columnName: "last_name" },
+        dateOfBirth: { type: 'datetime', columnName: "date_of_birth" },
+        email: { type: 'string' },
+        phone: { type: 'string' },
+        profileImageUrl: { type: 'string', columnName: "profile_url" }
     },
 };
 

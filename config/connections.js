@@ -101,13 +101,13 @@ default : {
     password:'1234',
     database:'employees'
    
-    
+},
     // TODO: This schemaName thing didnt work.
 //    meta: {
 //        schemaName: 'sails_addressbook'
 //    }
 //    schema: 'sails_addressbook'
-  }
+  
 
 
   /***************************************************************************
